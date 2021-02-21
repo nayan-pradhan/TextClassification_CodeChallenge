@@ -38,6 +38,6 @@
 3. Go to directory of downloaded files via terminal
 4. Run: 'python3 application.py'
 
-![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/commandLineApplication_Screenshot1.png)
-
 ![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/commandLineApplication_Screenshot2.png)
+
+![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/commandLineApplication_Screenshot1.png)
