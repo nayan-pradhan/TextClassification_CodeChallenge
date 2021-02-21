@@ -7,10 +7,13 @@
 - **.gitignore**: basic gitignore
 - **README.md**: this README file
 - **application.py**: python file for command line application
+- **commandLineApplication_Screenshot1.png**: Screenshot of command line application
+- **commandLineApplication_Screenshot2.png**: Screenshot of command line application
 - **dataset.json**: provided dataset
 - **pickle_dumper.py**: python file for training data and generating pickle used by application.py
 - **script.ipynb**: main Jupyter Notebook file
 - **trained_model.pickle**: auto-generated pickle file for trained model
+- **webApp_Screenshot.png**: Screenshot of web app
 
 **How to access Web Application:**
 1. Open 'script.ipynb' via Jupyter Notebook and run the whole notebook
