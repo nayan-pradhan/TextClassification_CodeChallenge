@@ -57,7 +57,7 @@ y = label
 # print("Training Model...")
 tfidf = TfidfVectorizer(tokenizer = cleaning_function)
 classifier = LinearSVC()
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.001, 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.01, 
     random_state=50)
 # print(X_train.shape, X_test.shape)
 SVC_clf = Pipeline([('tfidf', tfidf), ('clf', classifier)])

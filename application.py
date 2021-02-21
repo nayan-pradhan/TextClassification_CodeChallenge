@@ -53,8 +53,8 @@ question1 = [
     {
         'type': 'input',
         'name': 'input_data',
-        'message': 'Enter the skill you want to classify as soft, \
-            tech or none ->',
+        'message': 'Enter the skill you want to classify as soft, ' +
+            'tech or none ->',
         'validate': EmptyValidator
     }
 ]
@@ -82,21 +82,21 @@ while(1):
     print("Input Text:", end = '')
     pprint(answer1['input_data'])
     temp = predict_class(answer1['input_data'])
-    print("Predicted Class:", end = '')
+    print("--> Predicted Class:", end = '')
     pprint(temp)
 
-    print("\n")
+    print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-")
 
     answer2 = prompt(question2, style=style)
-    
+    print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-")
     if (answer2['exit_choice'] == ['exit']):
         print("Thank you!")
         print("Created by Nayan Man Singh Pradhan")
         print(pyfiglet.figlet_format("BYE-BYE"))
         break
     elif (answer2['exit_choice'] == []):
-        print("Please press spacebar to select option before pressing enter! \
-            Program will be continued.")
+        print("Please press spacebar to select option before pressing enter! "+
+            "Program will be continued.")
     elif (answer2['exit_choice']==['test other skills', 'exit']):
         print("Please select only one option! Program will be continued.")
     else:
