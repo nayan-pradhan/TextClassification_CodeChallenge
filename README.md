@@ -1,9 +1,9 @@
 # Text Classification - Code Challenge
 
-**About the challenge:**
+**❓ About the challenge:**
 - The challenge is meant to evaluate problem-solving skills in areas of text preprocessing, data manipulation and ML modeling in Python.
 
-**Files present in directory:**
+**📂 Files present in directory:**
 - **.gitignore**: basic gitignore
 - **README.md**: this README file
 - **application.py**: python file for command line application
@@ -15,13 +15,13 @@
 - **trained_model.pickle**: auto-generated pickle file for trained model
 - **webApp_Screenshot.png**: Screenshot of web app
 
-**How to access Web Application:**
+**🌏 How to access Web Application:**
 1. Open 'script.ipynb' via Jupyter Notebook and run the whole notebook
 2. URL: https://kdzynhp6hukjwuba.anvil.app/TYLJ73PI6MEOA76NVDBMX4JS/
 
 ![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/webApp_Screenshot.png)
 
-**How to run Command Line Application:**
+**👾 How to run Command Line Application:**
 1. Download files 'application.py' and 'pickle_dumper.py'
 2. Install the following libraries (if not already installed):
 	- pip install regex
