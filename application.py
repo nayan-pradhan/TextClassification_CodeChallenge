@@ -84,9 +84,7 @@ while(1):
     temp = predict_class(answer1['input_data'])
     print("--> Predicted Class:", end = '')
     pprint(temp)
-
     print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-")
-
     answer2 = prompt(question2, style=style)
     print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-")
     if (answer2['exit_choice'] == ['exit']):
