@@ -4,13 +4,13 @@
 - The challenge is meant to evaluate problem-solving skills in areas of text preprocessing, data manipulation and ML modeling in Python.
 
 **Files present in directory:**
-- __.gitignore__: basic gitignore
-- __README.md__: this README file
-- __application.py__: python file for command line application
-- __dataset.json__: provided dataset
-- __pickle_dumper.py__: python file for training data and generating pickle used by application.py
-- __script.ipynb__: main Jupyter Notebook file
-- __trained_model.pickle__: auto-generated pickle file for trained model
+- **.gitignore**: basic gitignore
+- **README.md**: this README file
+- **application.py**: python file for command line application
+- **dataset.json**: provided dataset
+- **pickle_dumper.py**: python file for training data and generating pickle used by application.py
+- **script.ipynb**: main Jupyter Notebook file
+- **trained_model.pickle**: auto-generated pickle file for trained model
 
 **How to access Web Application:**
 1. Open 'script.ipynb' via Jupyter Notebook and run the whole notebook
