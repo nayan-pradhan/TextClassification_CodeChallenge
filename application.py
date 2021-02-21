@@ -1,3 +1,4 @@
+## importing
 from __future__ import print_function, unicode_literals
 import regex
 from pprint import pprint
@@ -8,13 +9,23 @@ import pyfiglet
 import pickle 
 import pickle_dumper
 
-with open('trained_model', 'rb') as f:
+# print("Importing trained_model using Pickle")
+with open('trained_model.pickle', 'rb') as f:
     clf = pickle.load(f)
+# print("Completed importing via Pickle")
+f.close()
 
 def predict_class(user_input_from_function):
+    # print("Predicting ...")
     translator = google_translator()
     if(translator.detect(user_input_from_function)[0]!='de'):
-        user_input_from_function = translator.translate(user_input_from_function, lang_tgt='de')
+        print("Input language detected:", 
+            translator.detect(user_input_from_function)[1])
+        in_german = translator.translate(user_input_from_function, 
+            lang_tgt='de')
+        print("Translated to German:", in_german)
+        user_input_from_function = in_german
+    # print("Predicted!")
     return (clf.predict([user_input_from_function])[0])
 
 print(pyfiglet.figlet_format("WELCOME"))
@@ -25,7 +36,7 @@ style = style_from_dict({
     Token.Selected: '#673AB7 bold',
     Token.Instruction: '',  # default
     Token.Answer: '#2196f3 bold',
-    Token.Question: '',
+    Token.Question: ''
 })
 
 class EmptyValidator(Validator):
@@ -33,7 +44,8 @@ class EmptyValidator(Validator):
         if len(value.text):
             return True
         else:
-            raise ValidationError(message="You cannot leave this blank!", cursor_position=len(value.text))
+            raise ValidationError(message="You cannot leave this blank!", 
+                cursor_position=len(value.text))
 
 print("Hello! Welcome to my application!")
 
@@ -41,7 +53,8 @@ question1 = [
     {
         'type': 'input',
         'name': 'input_data',
-        'message': 'Enter the skill you want to classify as soft, tech or none ->',
+        'message': 'Enter the skill you want to classify as soft, \
+            tech or none ->',
         'validate': EmptyValidator
     }
 ]
@@ -75,13 +88,15 @@ while(1):
     print("\n")
 
     answer2 = prompt(question2, style=style)
-    # print(answer2)
+    
     if (answer2['exit_choice'] == ['exit']):
         print("Thank you!")
-        print(pyfiglet.figlet_format("The End"))
+        print("Created by Nayan Man Singh Pradhan")
+        print(pyfiglet.figlet_format("BYE-BYE"))
         break
     elif (answer2['exit_choice'] == []):
-        print("Please press spacebar to select option before pressing enter! Program will be continued.")
+        print("Please press spacebar to select option before pressing enter! \
+            Program will be continued.")
     elif (answer2['exit_choice']==['test other skills', 'exit']):
         print("Please select only one option! Program will be continued.")
     else:
