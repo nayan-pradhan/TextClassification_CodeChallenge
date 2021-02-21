@@ -8,17 +8,6 @@ import pyfiglet
 import pickle 
 import pickle_dumper
 
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
 with open('trained_model', 'rb') as f:
     clf = pickle.load(f)
 
@@ -64,7 +53,7 @@ question2 = [
         'choices': [
             Separator('= Do you want to: ='),
             {
-                'name': 'continue'
+                'name': 'test other skills'
             },
             {
                 'name': 'exit'
@@ -93,7 +82,7 @@ while(1):
         break
     elif (answer2['exit_choice'] == []):
         print("Please press spacebar to select option before pressing enter! Program will be continued.")
-    elif (answer2['exit_choice']==['continue', 'exit']):
+    elif (answer2['exit_choice']==['test other skills', 'exit']):
         print("Please select only one option! Program will be continued.")
     else:
         pass
