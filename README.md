@@ -16,7 +16,7 @@
 1. Open 'script.ipynb' via Jupyter Notebook and run the whole notebook
 2. URL: https://kdzynhp6hukjwuba.anvil.app/TYLJ73PI6MEOA76NVDBMX4JS/
 
-![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/WebApp_Screenshot.png)
+![alt text](https://github.com/nayan-pradhan/TextClassification_CodeChallenge/blob/main/webApp_Screenshot.png)
 
 **How to run Command Line Application:**
 1. Download files 'application.py' and 'pickle_dumper.py'
