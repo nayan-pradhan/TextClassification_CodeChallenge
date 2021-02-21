@@ -1,3 +1,0 @@
-pip install pyfiglet
-pip install regex
-pip install PyInquirer

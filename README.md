@@ -18,5 +18,20 @@
 
 **How to run Command Line Application:**
 1. Download files 'application.py' and 'pickle_dumper.py'
-2. Go to directory of downloaded files via terminal
-3. Run: 'python3 application.py'
+2. Install the following libraries (if not already installed):
+	- pip install regex
+	- pip install PyInquirer
+	- pip install google-trans-new
+	- pip install pyfiglet
+	- pip install pandas
+	- pip install numpy
+	- pip install -U pip setuptools wheel
+	- pip install -U spacy
+	- python -m spacy download en_core_web_sm
+	- python -m spacy download de_core_news_sm
+	- pip install nltk
+	- pip install matplotlib
+	- pip install scikit-learn
+	- *Please install any other necessary and relavent files if you gen an ImportError!*
+3. Go to directory of downloaded files via terminal
+4. Run: 'python3 application.py'
