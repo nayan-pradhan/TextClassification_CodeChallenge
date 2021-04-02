@@ -1,0 +1,13 @@
+- good at python/java/c++
+- experience with ms word
+- good communicator
+
+- You are fluent speaking in English or German, another language is a plus
+- You are thinking out of the box and independently
+- You are familiar with at least one of the following programming languages or frameworks by heart and know another: HTML / CSS / React / Typescript / Angular / Vue / Ruby / Google-FireBase / R / Python / R-Shiny / Java / Kotlin
+- Du hast bereits Erfahrungen/Grundkenntnisse im Bereich Telekommunikationsanlagen
+- Gute kommunikative Fähigkeiten sowie eine Kunden- und Serviceorientierung
+- IT Affinität ist wünschenswert
+- Vorzugsweise Kenntnisse in Python oder Java (Erfahrung mit anderen objektorientierten Programmiersprachen ist das kein Problem, wir helfen bei der Einarbeitung)
+- Auch Kenntnisse über Bildverarbeitung und Deep Learning Algorithmen sind von Vorteil.
+- Experience with C++ or C# specifically is an advantage
